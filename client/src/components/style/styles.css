@@ -1,23 +1,3 @@
-.home {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  background: #ef476f;
-  justify-content: space-evenly;
-  /* align-items: center; */
-}
-
-.h1 {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Sofia", sans-serif;
-}
-
-.h2button {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .card {
   display: flex;
   flex-direction: column;
@@ -27,6 +7,23 @@
   padding: 2em;
   margin-left: auto;
   margin-right: auto;
+}
+
+.auth-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #06d6a0;
+  border: 0px solid;
+}
+
+.sly-button {
+  border: 0px solid;
+  background-color: transparent;
 }
 
 .input {
@@ -55,21 +52,4 @@
 
 .input:focus {
   background-color: rgba(255, 255, 255, 0.349);
-}
-
-.button {
-  width: 21rem;
-  height: 3em;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  /* margin: 1em;
-  border: 0px solid;
-  border-radius: 5px;
-  background-color: #06d6a0; */
-}
-
-.button:hover {
-  background-color: #03ac7f;
 }
