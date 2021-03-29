@@ -1,6 +1,13 @@
 import "./Home.css";
 
 function App() {
+  async function pingServer() {
+    const data = await fetch("/ping");
+    console.log("data:", data);
+  }
+
+  pingServer();
+
   return (
     <div className="home">
       <h1 className="h1">Simple Authentication</h1>
