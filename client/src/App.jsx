@@ -3,7 +3,7 @@ import AuthForm from "./components/AuthForm";
 
 function App() {
   async function pingServer() {
-    const data = await fetch("/ping");
+    const data = await fetch("http://localhost:3001/ping");
     console.log("data:", data);
   }
 

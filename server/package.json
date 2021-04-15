@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/nana-boateng/simple-auth-app#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "fastify": "^3.14.1",
